@@ -8,7 +8,7 @@ This clover setting should works for recent Alienware Aurora R7 desktops  (relea
 
 The hardware details for my machine: i7-8700, GTX 1080, Adata sx8200 480g nvme ssd, DW1830 wifi+bluetooth
 
-#Working condition:
+# Working condition:
 I connect two 4k monitor to the machine through GTX1080 display ports, they works good. 
 
 Sleep and wake work good.
@@ -21,7 +21,7 @@ I have no related devices, so I did not test the SD-Card reader, USB-C ports and
 
 Killer 1535 Wifi+bluetooth not work (need to be replaced)
 
-#Installation:
+# Installation:
 
 Following the general installation tutorial and replace the default clover by this one. 
 
