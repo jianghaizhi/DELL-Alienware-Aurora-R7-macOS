@@ -9,9 +9,9 @@ This clover setting should work for recent Alienware Aurora R7 desktops  (releas
 The hardware details for my machine: i7-8700, GTX 1080, Adata sx8200 480g nvme ssd, DW1830 wifi+bluetooth card
 
 # Working condition:
-I connect two 4k monitor to the machine through GTX1080 display ports, they works good. 
+I connect two 4k monitors to the machine both through display port on GTX1080, they work good. 
 
-Sleep and wake work good.
+Sleep and wake are good.
 
 Usb ports are injected through SSDT-USB.aml
 
@@ -19,11 +19,14 @@ I do not use Intel integrated GPU, so it's not tested.
 
 I have no related devices, so I did not test the SD-Card reader, USB-C ports and HDMI ports. 
 
-Killer 1535 Wifi+bluetooth card not work (need to be replaced)
+Killer 1535 Wifi+bluetooth card does not work (need to be replaced)
 
 # Installation:
 
-Following the general installation tutorial and replace the default clover by this one. 
+1. Following the general installation tutorial to install macOS. 
+2. Install the Nvidia webdrive.
+3. Install the bluetooth drive for DW1830.
+4. Replace the default clover by this one.
 
 # Issues
 ...
