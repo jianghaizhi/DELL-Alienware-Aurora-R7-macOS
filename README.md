@@ -1,7 +1,7 @@
 # DELL-Alienware-Aurora-R7-macOS
 Full working macOS High Sierra (10.13.x) for DELL Alienware Aurora R7. 
 
-There may still exists some issues in this configuration, if you have any problem or improvement, you can share it through submitting an issue.
+There may still exist some issues in this configuration, if you have any problem or improvement, you can share it through submitting an issue.
 
 # Hardware
 This clover setting should work for recent Alienware Aurora R7 desktops  (released on 2017 and 2018) which installed with Intel CPU and Nvidia GPU. It may need some minor modifications to completely fulfill your machine.
