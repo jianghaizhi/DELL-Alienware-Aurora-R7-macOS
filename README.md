@@ -35,16 +35,16 @@ Killer 1535 Wifi+bluetooth card does not work (need to be replaced)
 
 6. Enable HWP (Intel Speed Shift) for a better CPU/power management.  See [this thread](https://www.tonymacx86.com/threads/skylake-hwp-enable.214915/) for a detailed information about HWP.
 
- In clover, HWP is enabled by default, however it will be disabled after waking from sleep (Due to Intel's policy). Therefore to retain HWP after resume from sleep, we should do:
+     In clover, HWP is enabled by default, however it will be disabled after waking from sleep (Due to Intel's policy). Therefore to retain HWP after resume from sleep, we should do:
 
- 6.1. Copy HWPEnabler.kext from /files/HWPEnabler.kext to /Library/Extensions/. Then update the system kext cache.
+     6.1. Copy HWPEnabler.kext from /files/HWPEnabler.kext to /Library/Extensions/. Then update the system kext cache.
  
- 6.2. Create a file called '.wakeup' with this content: 
+     6.2. Create a file called '.wakeup' with this content: 
 >  #!/usr/bin/env bash
 > /sbin/kextunload /Library/Extensions/HWPEnabler.kext
 > /sbin/kextload /Library/Extensions/HWPEnabler.kext
 
- 6.3 Create a script to automatically launch HWPEnabler.kext after each wakeup from sleep. This can be done by sleepwatcher. Run the following commands in terminal from the location of your .wakeup file:
+     6.3 Create a script to automatically launch HWPEnabler.kext after each wakeup from sleep. This can be done by sleepwatcher. Run the following commands in terminal from the location of your .wakeup file:
 > chmod +x .wakeup 
 > sudo cp .wakeup /var/root/
 > brew install sleepwatcher
