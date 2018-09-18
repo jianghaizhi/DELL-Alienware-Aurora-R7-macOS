@@ -25,8 +25,9 @@ Killer 1535 Wifi+bluetooth card does not work (need to be replaced)
 
 1. Following the general installation tutorial to install macOS. 
 2. Install the Nvidia webdrive.
-3. Install the bluetooth drive for DW1830.
+3. Install the bluetooth drive for DW1830 (BrcmPatchRAM).
 4. Replace the default clover by this one.
+5. Better CPU/power management: use freqVectorsEdit.sh to add/replace FrequencyVectors in plists in X86PlatformPlugin.kext/Contents/Resources/. Details: https://github.com/Piker-Alpha/freqVectorsEdit.sh
 
 # Issues
 ...
