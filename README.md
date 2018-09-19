@@ -40,9 +40,9 @@ Killer 1535 Wifi+bluetooth card does not work (need to be replaced)
      6.1. Copy HWPEnabler.kext from /files/HWPEnabler.kext to /Library/Extensions/. Then update the system kext cache.
  
      6.2. Create a file called '.wakeup' with this content:   
-    >  #!/usr/bin/env bash    
-    >  /sbin/kextunload /Library/Extensions/HWPEnabler.kext    
-    >  /sbin/kextload /Library/Extensions/HWPEnabler.kext    
+    >  #!/usr/bin/env bash
+    >  sudo kextunload /Library/Extensions/HWPEnabler.kext
+    >  sudo kextload /Library/Extensions/HWPEnabler.kext    
 
     6.3 Create a script to automatically launch HWPEnabler.kext after each wakeup from sleep. This can be done by sleepwatcher. Run the following commands in terminal from the location of your .wakeup file:  
     >  chmod +x .wakeup     
