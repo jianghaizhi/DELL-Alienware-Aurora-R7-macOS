@@ -10,7 +10,7 @@ Update to Majove 10.14.x, The configuration and files for High Serria are moved 
 
 Remove Nvidia Webdrive, replace Nvidia card by AMD card (RX 480,580,470,570,VEGA56, VEGA64, etc.). 
 
-Replace SMBIOS imac 14,1 by macmini 8,1. 
+Replace SMBIOS imac 14,1 by macmini 8,1. mac mini 2018 natively support the 8th generation Intel cpu and UHD 630 graphics card. 
 
 Remove HWPEnabler.kext. 
 
