@@ -1,54 +1,56 @@
-# DELL-Alienware-Aurora-R7-macOS
-Full working macOS High Sierra (10.13.x) for DELL Alienware Aurora R7. 
+# DELL-Alienware-Aurora-R7-macOS (Majove, 10.14.x)
+Full working macOS for DELL Alienware Aurora R7. 
 
 There may still exist some issues in this configuration, if you have any problem or improvement, you can share it through submitting an issue.
+
+# Update log
+**2019/11/18**   
+Update to Majove 10.14.x, The configuration and files for High Serria are moved to directory High-Serria-10.13.6**. 
+Remove Nvidia Webdrive, replace Nvidia card by AMD card (RX 480,580,470,570,VEGA56, VEGA64, etc.). 
+Replace SMBIOS imac 14,1 by macmini 8,1. 
+Remove HWPEnabler.kext. 
+Add some useful tools.  
 
 # Hardware
 This clover setting should work for recent Alienware Aurora R7 desktops  (released on 2017 and 2018) which installed with Intel CPU and Nvidia GPU. It may need some minor modifications to completely fulfill your machine.
 
-The hardware details for my machine: i7-8700, GTX 1080, Adata sx8200 480g nvme ssd, DW1830 wifi+bluetooth card
+The hardware details for my machine: i7-8700, ~~GTX 1080~~, MSI RX 580, Adata sx8200 480g nvme ssd, DW1830 wifi+bluetooth card
 
 # Working condition:
-I connect two 4k monitors to the machine both through display port on GTX1080, they work good. 
+I connect two 4k monitors to the machine both through display port on RX 580, they work good. 
+
+Facetime and imessage work good.
+
+Bluetooth works good.
+
+Airdrop works good.
 
 Sleep and wake are good.
 
-Usb ports are injected through SSDT-USB.aml
+~~Usb ports are injected through SSDT-USB.aml~~
 
-I do not use Intel integrated GPU, so it's not tested. 
+Intel integrated GPU UHD 630 is natively supported by Majove when using macmini 8,1. 
 
-I have no related devices, so I did not test the SD-Card reader, USB-C ports and HDMI ports. 
+I have no related devices, so I did not test USB-C ports and HDMI ports. 
 
-Killer 1535 Wifi+bluetooth card does not work (need to be replaced)
+Killer 1535 Wifi+bluetooth card does not work (need to be replaced).
+
+Magic mouse and Trackpad work good.
+
+# Issues
+There is no suitable patches now, USB3 works on 480 M/s (Majove 10.14.2)
 
 # Installation:
 
 1. Following the general installation tutorial to install macOS. 
 
-2. Install the Nvidia webdrive.
+2. Install the bluetooth drive for DW1830 (BrcmPatchRAM) 
+    Copy kexts in directory bluetooth to /System/Library/Exetensions
 
-3. Install the bluetooth drive for DW1830 (BrcmPatchRAM).
+3. Use Kext Utility to update cache for kexts, you can find this tool in directory tools
 
-4. Replace the default clover by this one.
+4. Replace the default EFI by this one.
 
-5. ~~Better CPU/power management: use freqVectorsEdit.sh to add/replace FrequencyVectors in plists in X86PlatformPlugin.kext/Contents/Resources/. Details: https://github.com/Piker-Alpha/freqVectorsEdit.sh~~
+    
 
-6. Enable HWP (Intel Speed Shift) for a better CPU/power management.  See [this thread](https://www.tonymacx86.com/threads/skylake-hwp-enable.214915/) for a detailed information about HWP.
 
-     In clover, HWP is enabled by default, however it will be disabled after waking from sleep (Due to Intel's policy). Therefore to retain HWP after resume from sleep, we should do:
-
-     6.1. Copy HWPEnabler.kext from /files/HWPEnabler.kext to /Library/Extensions/. Then update the system kext cache.
- 
-     6.2. Create a file called '.wakeup' with this content:   
-    >  #!/usr/bin/env bash  
-    >  sudo kextunload /Library/Extensions/HWPEnabler.kext  
-    >  sudo kextload /Library/Extensions/HWPEnabler.kext      
-
-    6.3 Create a script to automatically launch HWPEnabler.kext after each wakeup from sleep. This can be done by sleepwatcher. Run the following commands in terminal from the location of your .wakeup file:  
-    >  chmod +x .wakeup     
-    >  sudo cp .wakeup /var/root/    
-    >  brew install sleepwatcher    
-    >  sudo brew services start sleepwatcher     
-
-# Issues
-...
