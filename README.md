@@ -6,9 +6,13 @@ There may still exist some issues in this configuration, if you have any problem
 # Update log
 **2019/11/18**   
 Update to Majove 10.14.x, The configuration and files for High Serria are moved to directory High-Serria-10.13.6**. 
+
 Remove Nvidia Webdrive, replace Nvidia card by AMD card (RX 480,580,470,570,VEGA56, VEGA64, etc.). 
+
 Replace SMBIOS imac 14,1 by macmini 8,1. 
+
 Remove HWPEnabler.kext. 
+
 Add some useful tools.  
 
 # Hardware
@@ -16,7 +20,7 @@ This clover setting should work for recent Alienware Aurora R7 desktops  (releas
 
 The hardware details for my machine: i7-8700, ~~GTX 1080~~, MSI RX 580, Adata sx8200 480g nvme ssd, DW1830 wifi+bluetooth card
 
-# Working condition:
+# Working condition
 I connect two 4k monitors to the machine both through display port on RX 580, they work good. 
 
 Facetime and imessage work good.
@@ -40,7 +44,7 @@ Magic mouse and Trackpad work good.
 # Issues
 There is no suitable patches now, USB3 works on 480 M/s (Majove 10.14.2)
 
-# Installation:
+# Installation
 
 1. Following the general installation tutorial to install macOS. 
 
