@@ -18,8 +18,8 @@ Add some useful tools.
 
 **2019/11/18**
 
-Update SSDT for USBInjectAll.kext, USB3 ports can not runs at 5Gb/s. 
-> <font size="2">add:/EFI/CLOVER/ACPI/patched/SSDT-UIAC.aml    
+Update SSDT for USBInjectAll.kext, USB3 ports can now run at 5Gb/s. 
+> <font size="2">add: /EFI/CLOVER/ACPI/patched/SSDT-UIAC.aml    
 > update: /EFI/CLOVER/config.plist</font>
 
 # Hardware
