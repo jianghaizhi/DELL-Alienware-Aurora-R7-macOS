@@ -16,6 +16,12 @@ Remove HWPEnabler.kext.
 
 Add some useful tools.  
 
+**2019/11/18**
+
+Update SSDT for USBInjectAll.kext, USB3 ports can not runs at 5Gb/s. 
+> <font size="2">add:/EFI/CLOVER/ACPI/patched/SSDT-UIAC.aml
+> update: /EFI/CLOVER/config.plist</font>
+
 # Hardware
 This clover setting should work for recent Alienware Aurora R7 desktops  (released on 2017 and 2018) which installed with Intel CPU and Nvidia GPU. It may need some minor modifications to completely fulfill your machine.
 
