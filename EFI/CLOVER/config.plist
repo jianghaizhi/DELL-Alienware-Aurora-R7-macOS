@@ -57,6 +57,20 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
+					<string>change XHCI to XHC</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					WEhDMQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WEhDXw==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
 					<string>change GFX0 to IGPU</string>
 					<key>Disabled</key>
 					<false/>
@@ -97,6 +111,12 @@
 				<key>Signature</key>
 				<string>DMAR</string>
 			</dict>
+			<dict>
+				<key>Signature</key>
+				<string>SSDT</string>
+				<key>TableId</key>
+				<string>UIAC</string>
+			</dict>
 		</array>
 		<key>FixHeaders</key>
 		<true/>
@@ -112,6 +132,10 @@
 				<false/>
 			</dict>
 		</dict>
+		<key>SortedOrder</key>
+		<array>
+			<string>SSDT-UIAC.aml</string>
+		</array>
 	</dict>
 	<key>Boot</key>
 	<dict>
