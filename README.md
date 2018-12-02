@@ -1,4 +1,4 @@
-# DELL-Alienware-Aurora-R7-macOS (Majove, 10.14.x)
+# DELL-Alienware-Aurora-R7-macOS (Mojave, 10.14.x)
 Full working macOS for DELL Alienware Aurora R7. 
 
 There may still exist some issues in this configuration, if you have any problem or improvement, you can share it through submitting an issue.
@@ -6,7 +6,7 @@ There may still exist some issues in this configuration, if you have any problem
 # Update log
 **2019/11/18**  
 
-Update to Majove 10.14.x, The configuration and files for High Serria are moved to directory High-Serria-10.13.6**. 
+Update to Mojave 10.14.x, The configuration and files for High Serria are moved to directory High-Serria-10.13.6**. 
 
 Remove Nvidia Webdrive, replace Nvidia card by AMD card (RX 480,580,470,570,VEGA56, VEGA64, etc.). 
 
