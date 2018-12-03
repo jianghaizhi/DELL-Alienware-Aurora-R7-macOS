@@ -53,7 +53,7 @@ There is no suitable patches now, USB3 works on 480 M/s (Majove 10.14.2)
 
 # Installation
 
-1. Following the general installation tutorial to install macOS. 
+1. Following the general installation tutorial to install macOS. (Note that, you may need to update the EFI/clover in your USB installer to the latest version, and copy paste all of my EFI files, then try to install MacOS. The default EFI/clover version created by UniBeast is a bit old.)
 
 2. Install the bluetooth drive for DW1830 (BrcmPatchRAM) 
     Copy kexts in directory bluetooth to /System/Library/Exetensions
@@ -61,6 +61,8 @@ There is no suitable patches now, USB3 works on 480 M/s (Majove 10.14.2)
 3. Use Kext Utility to update cache for kexts, you can find this tool in directory tools
 
 4. Replace the default EFI by this one.
+
+5. Setting Audio: Try to plug in your audio device to the centre connector in the second row and select Internal speakers in System Preferences>Sound
 
     
 
