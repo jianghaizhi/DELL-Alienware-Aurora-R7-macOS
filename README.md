@@ -30,7 +30,7 @@ The hardware details for my machine: i7-8700, ~~GTX 1080~~, MSI RX 580, Adata sx
 # Working condition
 I connect two 4k monitors to the machine both through display port on RX 580, they work good. 
 
-Facetime and imessage work good.
+FaceTime and IMessage work good.
 
 Bluetooth works good.
 
@@ -38,9 +38,9 @@ Airdrop works good.
 
 Sleep and wake are good.
 
-~~Usb ports are injected through SSDT-USB.aml~~
+Usb ports are injected through SSDT-UIUC.aml
 
-Intel integrated GPU UHD 630 is natively supported by Majove when using macmini 8,1. 
+Intel integrated GPU UHD 630 is natively supported by Mojave when using macmini 8,1. 
 
 I have no related devices, so I did not test USB-C ports and HDMI ports. 
 
@@ -49,7 +49,8 @@ Killer 1535 Wifi+bluetooth card does not work (need to be replaced).
 Magic mouse and Trackpad work good.
 
 # Issues
-There is no suitable patches now, USB3 works on 480 M/s (Majove 10.14.2)
+~~There is no suitable patches now, USB3 works on 480 M/s (Mojave 10.14.2)~~
+Already fixed by adding SSDT for USBInjectAll.kext, USB3 ports can now run at 5Gb/s. See update log for details.
 
 # Installation
 
