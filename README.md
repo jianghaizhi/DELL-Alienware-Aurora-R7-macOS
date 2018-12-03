@@ -1,4 +1,4 @@
-# DELL-Alienware-Aurora-R7-macOS (Mojave, 10.14.x)
+# DELL-Alienware-Aurora-R6/R7/R8-macOS (Mojave, 10.14.x)
 Full working macOS for DELL Alienware Aurora R6/R7/R8. 
 
 There may still exist some issues in this configuration, if you have any problem or improvement, you can share it through submitting an issue.
