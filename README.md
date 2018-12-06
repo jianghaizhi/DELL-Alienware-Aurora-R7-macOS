@@ -4,7 +4,18 @@ Full working macOS for DELL Alienware Aurora R6/R7/R8.
 There may still exist some issues in this configuration, if you have any problem or improvement, you can share it through submitting an issue.
 
 # Update log
-**2019/11/18**  
+
+**2018/12/05**
+
+Update my machine's MacOS to 10.14.2 successfully with this EFI settings.
+
+**2018/11/22**
+
+Update SSDT for USBInjectAll.kext, USB3 ports can now run at 5Gb/s. I do not have USB-C decives, so the two USB-C ports are not injected, you can modify ssdt by yourself to inject them.
+> <font size="2">add: /EFI/CLOVER/ACPI/patched/SSDT-UIAC.aml    
+> update: /EFI/CLOVER/config.plist</font>
+
+**2018/11/18**  
 
 Update to Mojave 10.14.x, The configuration and files for High Serria are moved to directory High-Serria-10.13.6**. 
 
@@ -16,11 +27,7 @@ Remove HWPEnabler.kext.
 
 Add some useful tools.  
 
-**2019/11/22**
 
-Update SSDT for USBInjectAll.kext, USB3 ports can now run at 5Gb/s. I do not have USB-C decives, so the two USB-C ports are not injected, you can modify ssdt by yourself to inject them.
-> <font size="2">add: /EFI/CLOVER/ACPI/patched/SSDT-UIAC.aml    
-> update: /EFI/CLOVER/config.plist</font>
 
 # Hardware
 This clover setting should work for recent Alienware Aurora R6/R7/R8 desktops  (released on 2017 and 2018) which installed with Intel CPU and Nvidia GPU. It may need some minor modifications to completely fulfill your machine.
