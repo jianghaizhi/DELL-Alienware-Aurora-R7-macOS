@@ -57,7 +57,11 @@ Magic mouse and Trackpad work good.
 
 # Issues
 ~~There is no suitable patches now, USB3 works on 480 M/s (Mojave 10.14.2)~~
-Already fixed by adding SSDT for USBInjectAll.kext, USB3 ports can now run at 5Gb/s. See update log for details.
+Already fixed by adding SSDT for USBInjectAll.kext, USB3 ports can now run at 5Gb/s. See update log for details.   
+
+For the USB problem, please not plug to the first one from left of the 4 usb3 ports in the back. These is no workable 15 port limit patch for Mojave now, therefore only less than 15 port are inject through SSDT. These injected ports include all the four ports in the front, the four usb2 ports in the second line in the back, and the 3 usb3 ports (except the first one from left) in the back.
+
+The first one from left usb3 port in the back is indeed a usb 3.1 port, and controlled by a usb hub. While other usb3 ports are controlled by the motherboard.
 
 # Installation
 
@@ -72,6 +76,7 @@ Already fixed by adding SSDT for USBInjectAll.kext, USB3 ports can now run at 5G
 
 5. Setting Audio: Try to plug in your audio device to the centre connector in the second row and select Internal speakers in System Preferences>Sound
 
-    
+
+
 
 
