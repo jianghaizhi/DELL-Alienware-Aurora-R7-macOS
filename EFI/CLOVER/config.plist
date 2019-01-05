@@ -162,7 +162,7 @@
 				<true/>
 			</dict>
 			<key>PluginType</key>
-			<string>0</string>
+			<string>1</string>
 		</dict>
 		<key>SortedOrder</key>
 		<array>
