@@ -111,6 +111,20 @@
 					SERFRg==
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change HECI to IMEI</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					SEVDSQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					SU1FSQ==
+					</data>
+				</dict>
 			</array>
 			<key>ReuseFFFF</key>
 			<false/>
@@ -148,7 +162,7 @@
 				<true/>
 			</dict>
 			<key>PluginType</key>
-			<string>0</string>
+			<string>1</string>
 		</dict>
 		<key>SortedOrder</key>
 		<array>
@@ -164,6 +178,8 @@
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>Log</key>
+		<true/>
+		<key>NoEarlyProgress</key>
 		<true/>
 		<key>Secure</key>
 		<false/>
