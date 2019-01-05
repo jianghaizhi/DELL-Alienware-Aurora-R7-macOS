@@ -179,6 +179,8 @@
 		<string>PBR</string>
 		<key>Log</key>
 		<true/>
+		<key>NoEarlyProgress</key>
+		<true/>
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
