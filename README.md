@@ -5,8 +5,9 @@ There may still exist some issues in this configuration, if you have any problem
 
 # Update log
 
-**2019/01/22**   
-Add usb port limited patch, you can choose to use this patch or customed SSDT patch.
+**2019/01/22** 
+    
+Add usb port limited patch, you can choose to use this patch or the customed SSDT patch.
 
 This following patchs allow root hub port limit over 0xf to 0x3f.
 
