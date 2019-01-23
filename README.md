@@ -5,6 +5,23 @@ There may still exist some issues in this configuration, if you have any problem
 
 # Update log
 
+**2019/01/22**
+Add usb port limited patch, you can choose to use this patch or customed SSDT patch.
+
+This following patch allows root hub port limit over 0xf to 0x3f.
+
+Comment: USB port limit patch 10.14.1 10.14.2 (credit ydeng)
+Name: IOUSBHostFamily
+Find: 00e0 83fb 0f0f 8716 0400
+Replace: 00e0 83fb 3f0f 8716 0400
+
+This need to be used together with AppleUSBXHCI patch published elsewhere (https://www.tonymacx86.com/threads/solved-mojave-10-14-1-update-lost-usb-3-0.264125/).
+
+Comment: USB Port limit patch 10.14.1, 10.14.2
+Name: com.apple.driver.usb.AppleUSBXHCI
+Find: 00 00 83 FB 0F 0F 83 8F 04 00 00
+Replace: 00 00 83 FB 3F 0F 83 8F 04 00 00
+
 **2018/12/05**
 
 Update my machine's MacOS to 10.14.2 successfully with this EFI settings.
