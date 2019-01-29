@@ -3,7 +3,13 @@ Full working macOS for DELL Alienware Aurora R6/R7/R8.
 
 There may still exist some issues in this configuration, if you have any problem or improvement, you can share it through submitting an issue.
 
-# Update log
+# Update log  
+
+**2019/01/28**   
+
+The PSU noise issue.
+  
+The default PSU (460w, made by Delta)in my machine is defective, it produces loud noise when the load of the machine is high. You can ask DELL to replace this defective PSU by another PSU (460w, Part# WC1T4, made by HUNTKEY). HUNTKEY PSU is a bit better than Delta one. You can also buy a more better PSU to replace it.    
 
 **2019/01/22** 
     
