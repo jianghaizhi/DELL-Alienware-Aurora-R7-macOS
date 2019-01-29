@@ -7,9 +7,10 @@ There may still exist some issues in this configuration, if you have any problem
 
 **2019/01/22** 
     
-Add usb port limited patch, you can choose to use this patch or the customed SSDT patch.
+New usb port limited patch (I tested them in my machine, they work good), you can choose to use this patches or the customed SSDT patch.
 
-This following patchs allow root hub port limit over 0xf to 0x3f.
+This following patchs allow root hub port limit over 0xf to 0x3f.    
+You need to add both these two pathes.     
 
 Comment: USB port limit patch 10.14.1 10.14.2 (credit ydeng).   
 Name: IOUSBHostFamily  
