@@ -83,8 +83,8 @@ The first one from left usb3 port in the back is indeed a usb 3.1 port, and cont
 
 1. Following the general installation tutorial to install macOS. (Note that, you may need to update the EFI/clover in your USB installer to the latest version, and copy paste all of my EFI files, then try to install MacOS. The default EFI/clover version created by UniBeast is a bit old.)
 
-2. Install the bluetooth drive for DW1830 (BrcmPatchRAM) 
-    Copy kexts in directory bluetooth to /System/Library/Exetensions
+2. Install the bluetooth drive for DW1830 (BrcmPatchRAM)   
+    Copy the two kexts in directory /bluetooth to /Library/Exetensions
 
 3. Use Kext Utility to update cache for kexts, you can find this tool in directory tools
 
