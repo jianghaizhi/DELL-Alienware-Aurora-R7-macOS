@@ -15,18 +15,17 @@ The default PSU (460w, made by Delta)in my machine is defective, it produces lou
     
 New usb port limited patch (I tested them in my machine, they work good), you can choose to use either these patches or the customed SSDT patch.
 
-This following patchs allow root hub port limit over 0xf to 0x3f.    
-You need to add both these two pathes.     
+This following patchs allow root hub port limit over 0xf to 0x3f.You need to add both these two pathes.     
 
-Comment: USB port limit patch 10.14.1 10.14.2 (credit ydeng).   
-Name: IOUSBHostFamily  
-Find: 00e0 83fb 0f0f 8716 0400  
-Replace: 00e0 83fb 3f0f 8716 0400   
+> <font size="2">Comment: USB port limit patch 10.14.1 10.14.2 (credit ydeng).   
+> <font size="2">Name: IOUSBHostFamily  
+> <font size="2">Find: 00e0 83fb 0f0f 8716 0400  
+> <font size="2">Replace: 00e0 83fb 3f0f 8716 0400   
 
-Comment: USB Port limit patch 10.14.1, 10.14.2.   
-Name: com.apple.driver.usb.AppleUSBXHCI  
-Find: 00 00 83 FB 0F 0F 83 8F 04 00 00  
-Replace: 00 00 83 FB 3F 0F 83 8F 04 00 00  
+> <font size="2">Comment: USB Port limit patch 10.14.1, 10.14.2.   
+> <font size="2">Name: com.apple.driver.usb.AppleUSBXHCI  
+> <font size="2">Find: 00 00 83 FB 0F 0F 83 8F 04 00 00  
+> <font size="2">Replace: 00 00 83 FB 3F 0F 83 8F 04 00 00  
 
 **2018/12/05**
 
