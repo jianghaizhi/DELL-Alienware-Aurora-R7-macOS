@@ -13,7 +13,7 @@ The default PSU (460w, made by Delta)in my machine is defective, it produces lou
 
 **2019/01/22** 
     
-New usb port limited patch (I tested them in my machine, they work good), you can choose to use this patches or the customed SSDT patch.
+New usb port limited patch (I tested them in my machine, they work good), you can choose to use either these patches or the customed SSDT patch.
 
 This following patchs allow root hub port limit over 0xf to 0x3f.    
 You need to add both these two pathes.     
