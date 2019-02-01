@@ -9,7 +9,7 @@ There may still exist some issues in this configuration, if you have any problem
 
 The PSU noise issue.
   
-The default PSU (460w, made by Delta)in my machine is defective, it produces loud noise when the load of the machine is high. You can ask DELL to replace this defective PSU by another PSU (460w, Part# WC1T4, made by HUNTKEY). HUNTKEY PSU is a little better than Delta one for noise controling. There are also some people say that Delta psu's quality is better than HUNTKEY except the fan. You can also buy a more better PSU to replace it.    
+The default PSU (460w, made by Delta)in my machine is defective, it produces loud noise when the load of the machine is high. If you have the same problem, you can ask DELL to replace this defective PSU by another PSU (460w, Part# WC1T4, made by HUNTKEY). HUNTKEY PSU is a little better than Delta one for noise controlling. There are also some people say that Delta psu's quality is better than HUNTKEY except the fan. You can also buy a more better PSU to replace it by yourself.    
 
 **2019/01/22** 
     
