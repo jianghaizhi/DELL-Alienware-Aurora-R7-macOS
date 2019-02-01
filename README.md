@@ -15,7 +15,7 @@ The default PSU (460w, made by Delta)in my machine is defective, it produces lou
     
 New usb port limited patch (I tested them in my machine, they work good), you can choose to use either these patches or the customed SSDT patch.
 
-This following patchs allow root hub port limit over 0xf to 0x3f.You need to add both these two pathes.     
+This following patchs allow root hub port limit over 0xf to 0x3f. You need to add both these two pathes.     
 
 > <font size="2">Comment: USB port limit patch 10.14.1 10.14.2 (credit ydeng).   
 > <font size="2">Name: IOUSBHostFamily  
