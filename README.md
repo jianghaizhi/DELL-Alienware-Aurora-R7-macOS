@@ -1,7 +1,9 @@
 # DELL-Alienware-Aurora-R6/R7/R8-macOS (Mojave, 10.14.x)
 Full working macOS for DELL Alienware Aurora R6/R7/R8. 
 
-There may still exist some issues in this configuration, if you have any problem or improvement, you can share it through submitting an issue.
+There may still exist some issues in this configuration, if you have any problem or improvement, you can share it through submitting an issue.   
+
+My machine: Aurora R7 with i7-8700, ~~GTX 1080~~, 32GB memory, RX 580, 480g nvme ssd, DW1830 wifi+bluetooth card
 
 # Update log  
 
@@ -54,7 +56,7 @@ Add some useful tools.
 # Hardware
 This clover setting should work for recent Alienware Aurora R6/R7/R8 desktops  (released on 2017 and 2018) which installed with Intel CPU and Nvidia GPU. It may need some minor modifications to completely fulfill your machine.
 
-The hardware details for my machine: Aurora R7 with i7-8700, ~~GTX 1080~~, 32GB memory, MSI RX 580, Adata sx8200 480g nvme ssd, DW1830 wifi+bluetooth card
+The hardware details for my machine: Aurora R7 with i7-8700, ~~GTX 1080~~, 32GB memory, RX 580, 480g nvme ssd, DW1830 wifi+bluetooth card
 
 # Working condition
 I connect two 4k monitors to the machine both through display port on RX 580, they work good. 
