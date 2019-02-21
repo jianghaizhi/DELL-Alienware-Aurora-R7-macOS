@@ -12,9 +12,9 @@ My machine: Aurora R7 with i7-8700, ~~GTX 1080~~, 32GB memory, RX 580, 480g nvme
 Change the default clover theme to Majove. Screenshot:
 ![screenshot](https://raw.githubusercontent.com/jianghaizhi/DELL-Alienware-Aurora-R7-macOS/master/EFI/CLOVER/themes/Mojave/screenshot.png)
 
-Update kexts (EFI/CLOVER/kexts/Other) to lastest version.  
+Update kexts (EFI/CLOVER/kexts/Other) to latest version.  
 
-Update UEFI (EFI/CLOVER/drivers64UEFI) drivers to lastest version.    
+Update UEFI drivers (EFI/CLOVER/drivers64UEFI) to latest version.    
 
 
 **2019/01/28**   
