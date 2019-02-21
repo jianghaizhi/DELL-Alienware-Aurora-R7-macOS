@@ -7,6 +7,18 @@ My machine: Aurora R7 with i7-8700, ~~GTX 1080~~, 32GB memory, RX 580, 480g nvme
 
 # Update log  
 
+**2019/02/21**   
+
+Change the default clover theme to Majove.
+https://raw.githubusercontent.com/jianghaizhi/DELL-Alienware-Aurora-R7-macOS/master/EFI/CLOVER/themes/Mojave/screenshot.png
+![screenshot](https://raw.githubusercontent.com/jianghaizhi/DELL-Alienware-Aurora-R7-macOS/master/EFI/CLOVER/themes/Mojave/screenshot.png)
+
+
+Update kexts (EFI/CLOVER/kexts/Other) to lastest version.  
+
+Update UEFI (EFI/CLOVER/drivers64UEFI) drivers to lastest version.    
+
+
 **2019/01/28**   
 
 The PSU noise issue.
