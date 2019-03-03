@@ -7,6 +7,35 @@ My machine: Aurora R7 with i7-8700, ~~GTX 1080~~, 32GB memory, RX 580, 480g nvme
 
 # Update log  
 
+**2019/03/02** 
+
+The newest USB port limit patch:
+
+Comment: USB port limit patch #1 10.14.x modify by DalianSky(credit ydeng)
+Name: com.apple.iokit.IOUSBHostFamily
+Find: 83FB0F0F
+Replace: 83FB3F0F
+MatchOS: 10.14.x
+
+Comment: USB port limit patch #2 10.14.x modify by DalianSky(credit PMHeart)
+Name: com.apple.iokit.IOUSBHostFamily
+Find: 83E30FD3
+Replace: 83E33FD3
+MatchOS: 10.14.x
+
+Comment: USB Port limit patch #3 10.14.x modify by DalianSky(credits PMheart)
+Name: com.apple.driver.usb.AppleUSBXHCI
+Find: 83FB0F0F
+Replace: 83FB3F0F
+MatchOS: 10.14.x
+
+Comment: USB Port limit patch #4 10.14.x modify by DalianSky(credits PMheart)
+Name: com.apple.driver.usb.AppleUSBXHCI
+Find: 83FF0F0F
+Replace: 83FF3F0F
+MatchOS: 10.14.x
+
+
 **2019/02/21**   
 
 Change the default clover theme to Majove. Screenshot:
