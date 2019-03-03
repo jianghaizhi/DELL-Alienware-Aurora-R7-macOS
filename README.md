@@ -7,6 +7,10 @@ My machine: Aurora R7 with i7-8700, ~~GTX 1080~~, 32GB memory, RX 580, 480g nvme
 
 # Update log  
 
+**2019/03/03** 
+
+To fix kernel panic which is potentially caused by Intel graphics card: uncheck config.plist/Graphics/Inject Intel    
+
 **2019/03/02** 
 
 The newest USB port limit patches, you can choose to use either these patches or the customed SSDT patch.
