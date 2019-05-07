@@ -7,6 +7,16 @@ My machine: Aurora R7 with i7-8700, ~~GTX 1080~~, 32GB memory, RX 580, 480g nvme
 
 # Update log  
 
+**2019/05/07**
+
+Both the default case fans and PSU fan are very loud in Aurora. You can change them by yourself.
+
+suggestion 1: change the top to ML120 PRO, this fan can pass the DELL system check. While a lot of other fans can not pass the DELL system check. Note that, the RGB version of ML120 PRO can not pass the check too, please select other color versions. This fan is very quiet.
+
+suggestion 2: you can change the front fan to any silent fan.
+
+suggestion 3: replace the PSU to a better brand PSU, > 500w, with smart fan control. Or change the PSU fan.
+
 **2019/03/03** 
 
 To fix kernel panic which is potentially caused by Intel graphics card: uncheck config.plist/Graphics/Inject Intel    
