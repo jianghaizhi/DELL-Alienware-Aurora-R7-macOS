@@ -9,7 +9,7 @@ My machine: Aurora R7 with i7-8700, ~~GTX 1080~~, 32GB memory, RX 580, 480g nvme
 
 **2020/01/12**
 
-This configuration works good in Catalina, please install the latest Clover before you update to Catalina.
+This configuration works good in Catalina, but please install the latest Clover before you update to Catalina.
 
 **2019/05/07**
 
