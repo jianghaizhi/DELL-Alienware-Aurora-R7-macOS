@@ -1,4 +1,4 @@
-# DELL-Alienware-Aurora-R6/R7/R8-macOS (Mojave, 10.14.x)
+# DELL-Alienware-Aurora-R6/R7/R8-macOS (Mojave and above, 10.14.x ~ 10.15.x )
 Full working macOS for DELL Alienware Aurora R6/R7/R8. 
 
 There may still exist some issues in this configuration, if you have any problem or improvement, you can share it through submitting an issue.   
@@ -6,6 +6,10 @@ There may still exist some issues in this configuration, if you have any problem
 My machine: Aurora R7 with i7-8700, ~~GTX 1080~~, 32GB memory, RX 580, 480g nvme ssd, DW1830 wifi+bluetooth card
 
 # Update log  
+
+**2020/01/12**
+
+This configuration works good in Catalina, please install the latest Clover before you update to Catalina.
 
 **2019/05/07**
 
