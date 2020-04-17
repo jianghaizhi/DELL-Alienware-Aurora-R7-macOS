@@ -5,7 +5,17 @@ There may still exist some issues in this configuration, if you have any problem
 
 My machine: Aurora R7 with i7-8700, ~~GTX 1080~~, 32GB memory, RX 580, 480g nvme ssd, DW1830 wifi+bluetooth card
 
+
 # Update log  
+
+**2020/04/16**
+
+Update clover, kexts and drives to latest version. Now this configuratiuon can fully support macOS Catalina (10.15.x) by default. 
+
+Change default theme to Catalina.
+
+I have tested opencore on my machine. It seems Clover works better than opencore. So, currently I suggest to keep using Clover for Alienware Aurora. 
+
 
 **2020/01/12**
 
