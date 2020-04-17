@@ -1,9 +1,10 @@
 # DELL-Alienware-Aurora-R6/R7/R8-macOS (Mojave and above, 10.14.x ~ 10.15.x )
+
 Full working macOS for DELL Alienware Aurora R6/R7/R8. 
 
-There may still exist some issues in this configuration, if you have any problem or improvement, you can share it through submitting an issue.   
+If you have any problem or improvement, you are weclome to share it through submitting an issue.   
 
-My machine: Aurora R7 with i7-8700, ~~GTX 1080~~, 32GB memory, RX 580, 480g nvme ssd, DW1830 wifi+bluetooth card
+My machine: Aurora R7 with i7-8700, 32GB memory, RX 580, 1TB nvme ssd, DW1830 wifi+bluetooth card
 
 
 # Update log  
@@ -156,7 +157,7 @@ The first one from left usb3 port in the back is indeed a usb 3.1 port, and cont
 
 # Installation
 
-1. Following the general installation tutorial to install macOS. (Note that, you may need to update the /EFI/clover in your USB installer to the latest version, and copy paste all of my EFI files, then try to install MacOS. The default /EFI/clover version created by UniBeast is a bit old.)
+1. Following the general installation tutorial to install macOS. (Note that, you may need to update the /EFI/clover in your USB installer to the latest version, and copy paste all of my EFI files, then try to install MacOS. The default /EFI/clover version created by UniBeast is a bit old. Please plug your installation USB to a USB 2.0 port to install macOS.)
 
 2. Install the bluetooth drive for DW1830 (BrcmPatchRAM)   
     Copy the two kexts in directory /bluetooth to /Library/Exetensions
