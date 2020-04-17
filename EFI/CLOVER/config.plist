@@ -29,17 +29,23 @@
 			<array>
 				<dict>
 					<key>Comment</key>
+					<string>Rename HDAS to HDEF</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>SERBUw==</data>
+					<key>Replace</key>
+					<data>SERFRg==</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
 					<string>change EHC1 to EH01</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					RUhDMQ==
-					</data>
+					<data>RUhDMQ==</data>
 					<key>Replace</key>
-					<data>
-					RUgwMQ==
-					</data>
+					<data>RUgwMQ==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -47,13 +53,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					RUhDMg==
-					</data>
+					<data>RUhDMg==</data>
 					<key>Replace</key>
-					<data>
-					RUgwMg==
-					</data>
+					<data>RUgwMg==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -61,13 +63,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					WEhDMQ==
-					</data>
+					<data>WEhDMQ==</data>
 					<key>Replace</key>
-					<data>
-					WEhDXw==
-					</data>
+					<data>WEhDXw==</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -75,55 +73,9 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>
-					R0ZYMA==
-					</data>
+					<data>R0ZYMA==</data>
 					<key>Replace</key>
-					<data>
-					SUdQVQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change SAT0 to SATA</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					U0FUMA==
-					</data>
-					<key>Replace</key>
-					<data>
-					U0FUQQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Rename HDAS to HDEF</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					SERBUw==
-					</data>
-					<key>Replace</key>
-					<data>
-					SERFRg==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change HECI to IMEI</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					SEVDSQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					SU1FSQ==
-					</data>
+					<data>SUdQVQ==</data>
 				</dict>
 			</array>
 			<key>ReuseFFFF</key>
@@ -134,10 +86,6 @@
 			<dict>
 				<key>Signature</key>
 				<string>MATS</string>
-			</dict>
-			<dict>
-				<key>Signature</key>
-				<string>DMAR</string>
 			</dict>
 			<dict>
 				<key>Signature</key>
@@ -172,15 +120,15 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 keepsyms=1 -disablegfxfirmware</string>
+		<string>dart=0</string>
 		<key>DefaultVolume</key>
-		<string>Majove</string>
+		<string>MacOS</string>
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>Log</key>
 		<true/>
 		<key>NoEarlyProgress</key>
-		<true/>
+		<false/>
 		<key>Secure</key>
 		<false/>
 		<key>Timeout</key>
@@ -193,7 +141,7 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<integer>2</integer>
+			<integer>1</integer>
 			<key>ResetHDA</key>
 			<true/>
 		</dict>
@@ -261,7 +209,7 @@
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
 		<key>Theme</key>
-		<string>Mojave</string>
+		<string>Catalina</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -301,17 +249,13 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				RXh0ZXJuYWw=
-				</data>
+				<data>RXh0ZXJuYWw=</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>Name</key>
 				<string>AppleAHCIPort</string>
 				<key>Replace</key>
-				<data>
-				SW50ZXJuYWw=
-				</data>
+				<data>SW50ZXJuYWw=</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -319,17 +263,13 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				g/sPD4OPBAAA
-				</data>
+				<data>g/sPD4OPBAAA</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>Name</key>
 				<string>com.apple.driver.usb.AppleUSBXHCI</string>
 				<key>Replace</key>
-				<data>
-				g/sPkJCQkJCQ
-				</data>
+				<data>g/sPkJCQkJCQ</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -337,17 +277,13 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				SIX/dEdIiwc=
-				</data>
+				<data>SIX/dEdIiwc=</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>Name</key>
 				<string>IOBluetoothFamily</string>
 				<key>Replace</key>
-				<data>
-				Qb4PAAAA60Q=
-				</data>
+				<data>Qb4PAAAA60Q=</data>
 			</dict>
 		</array>
 	</dict>
@@ -358,9 +294,7 @@
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
 		<key>ROM</key>
-		<data>
-		v3W63llo
-		</data>
+		<data>v3W63llo</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
