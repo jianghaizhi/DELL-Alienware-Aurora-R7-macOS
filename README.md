@@ -1,4 +1,4 @@
-# DELL-Alienware-Aurora-R6/R7/R8-macOS (Mojave and above, 10.14.x ~ 10.15.x )
+# DELL-Alienware-Aurora-R6/R7/R8-macOS (Update to support macOS Big Sur and above, 11.x )
 
 Full working macOS for DELL Alienware Aurora R6/R7/R8. 
 
@@ -8,6 +8,24 @@ My machine: Aurora R7 with i7-8700, 32GB memory, RX 580, 1TB nvme ssd, DW1830 wi
 
 
 # Update log  
+
+**2021/02/04**
+Update to support macOS Big Sur and above, update clover to 5129, all kexts are also updated.
+
+Instruction on how to update your macOS:
+1. replace your EFI by this newest EFI.
+2. update macOS through Software Update in System Preferences
+3. after the first reboot, select install macOS from [your hard drive] in clover start page
+4. after the second reboot, select install Mac OS X for [your hard drive]-data from preboot in clover start page
+5. the system will reboot mutiple times, always select install Mac OS X for [your hard drive]-data from preboot in clover start page
+6. until the entry in clover start page change to Mac OS X from [your hard drive]-data, the update is finished.
+7. select Mac OS X from [your hard drive]-data to enter your new macOS
+
+Mannual EFL update instruction:
+1. replace AptioMemoryFixes (AptioMemoryFix.efi, OsxAptioFix3Drv.efi, OsxAptioFixDrv.efi and everyhing else containing "memoryfix".) by OpenRuntime.efi in EFL/Clover/drives/UEFI
+2. remove preboot from Hide Volume in config.plist
+3. following this figure to set Quirks in config.plist
+
 
 **2020/04/16**
 
