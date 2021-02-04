@@ -13,8 +13,6 @@ My machine: Aurora R7 with i7-8700, 32GB memory, RX 580, 1TB nvme ssd, DW1830 wi
 
 Update to support macOS Big Sur and above, update clover to 5129, all kexts are also updated.
 
-![image](https://raw.githubusercontent.com/jianghaizhi/DELL-Alienware-Aurora-R7-macOS/master/bigsur.png)
-
 
 
 ===Instruction on how to update your macOS:===
