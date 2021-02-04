@@ -13,8 +13,12 @@ My machine: Aurora R7 with i7-8700, 32GB memory, RX 580, 1TB nvme ssd, DW1830 wi
 
 Update to support macOS Big Sur and above, update clover to 5129, all kexts are also updated.
 
+![screenshot](https://raw.githubusercontent.com/jianghaizhi/DELL-Alienware-Aurora-R7-macOS/master/bigsur.png)
+
+
+
 ===Instruction on how to update your macOS:===
-1. replace your EFI by this newest EFI.
+1. replace your EFI by this newest EFI, or following the Mannual EFL update instruction.
 2. update macOS through Software Update in System Preferences
 3. after the first reboot, select install macOS from [your hard drive] in clover start page
 4. after the second reboot, select install Mac OS X for [your hard drive]-data from preboot in clover start page
