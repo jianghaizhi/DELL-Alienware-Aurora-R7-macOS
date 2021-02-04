@@ -26,7 +26,8 @@ Update to support macOS Big Sur and above, update clover to 5129, all kexts are 
 1. replace AptioMemoryFixes (AptioMemoryFix.efi, OsxAptioFix3Drv.efi, OsxAptioFixDrv.efi and everyhing else containing "memoryfix".) by OpenRuntime.efi in EFL/Clover/drives/UEFI
 2. remove preboot from Hide Volume in config.plist
 3. following this figure to set Quirks in config.plist
-![screenshot](https://raw.githubusercontent.com/jianghaizhi/DELL-Alienware-Aurora-R7-macOS/master/screenshot.png)
+
+![screenshot](https://raw.githubusercontent.com/jianghaizhi/DELL-Alienware-Aurora-R7-macOS/master/quirks.png)
 
 **2020/04/16**
 
