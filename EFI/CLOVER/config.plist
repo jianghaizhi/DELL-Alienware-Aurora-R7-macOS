@@ -74,13 +74,21 @@
 					<key>Comment</key>
 					<string>change GFX0 to IGPU</string>
 				</dict>
+				<dict>
+					<key>Find</key>
+					<data>X1BSVw==</data>
+					<key>Replace</key>
+					<data>WFBSVw==</data>
+					<key>Disabled</key>
+					<false/>
+					<key>Comment</key>
+					<string>GLAN:_PRW to XPRW</string>
+					<key>TgtBridge</key>
+					<data>R0xBTg==</data>
+				</dict>
 			</array>
 			<key>Fixes</key>
 			<dict>
-				<key>FiX_WAK_200000</key>
-				<false/>
-				<key>FiX_TMR_40000</key>
-				<false/>
 				<key>FixSATA</key>
 				<false/>
 				<key>FixMutex</key>
@@ -97,11 +105,25 @@
 			<key>ReuseFFFF</key>
 			<false/>
 		</dict>
+		<key>SortedOrder</key>
+		<array>
+			<string>SSDT-UIAC.aml</string>
+		</array>
 		<key>DropTables</key>
 		<array>
 			<dict>
 				<key>Signature</key>
 				<string>MATS</string>
+			</dict>
+			<dict>
+				<key>Signature</key>
+				<string>DMAR</string>
+			</dict>
+			<dict>
+				<key>TableId</key>
+				<string>UIAC</string>
+				<key>Signature</key>
+				<string>SSDT</string>
 			</dict>
 		</array>
 		<key>FixHeaders</key>
