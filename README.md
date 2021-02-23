@@ -1,6 +1,6 @@
 # DELL-Alienware-Aurora-macOS (Update to support macOS Big Sur and above, 11.x )
 
-Full working macOS for DELL Alienware Aurora R6/R7/R8/R9/R10/R11. 
+Full working macOS for DELL Alienware Aurora R6/R7/R8/R9/R10/R11 (with Intel Processors). 
 
 If you have any problem or improvement, you are weclome to share it through submitting an issue.   
 
