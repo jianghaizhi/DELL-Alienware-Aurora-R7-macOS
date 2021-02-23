@@ -11,7 +11,7 @@ My machine: Aurora R7 with i7-8700, 32GB memory, RX 580, 1TB nvme ssd, DW1830 wi
 
 **2021/02/04**
 
-Update to support macOS Big Sur and above, update clover to 5129, all kexts are also updated.
+Update to support macOS Big Sur, update clover to 5129, all kexts are also updated.
 
 
 
