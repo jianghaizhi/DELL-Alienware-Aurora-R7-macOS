@@ -24,7 +24,7 @@ Update to support macOS Big Sur, update clover to 5129, all kexts are also updat
 6. until the entry in clover start page change to Mac OS X from [your hard drive]-data, the update is finished.
 7. select Mac OS X from [your hard drive]-data to enter your new macOS
 
-===Mannual EFL update instruction:===
+===Manual EFL update instruction:===
 1. update clover to newest version
 2. replace AptioMemoryFixes (AptioMemoryFix.efi, OsxAptioFix3Drv.efi, OsxAptioFixDrv.efi and everyhing else containing "memoryfix".) by OpenRuntime.efi in EFL/Clover/drives/UEFI
 3. remove preboot from Hide Volume in config.plist
